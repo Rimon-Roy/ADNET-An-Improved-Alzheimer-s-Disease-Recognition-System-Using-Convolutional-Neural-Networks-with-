@@ -1,19 +1,51 @@
-# Alzheimer's Disease Detection Repository
+# 🧠 ADNET: An Improved Alzheimer’s Disease Recognition System Using CNN and Explainable AI
 
-Welcome to the Alzheimer's Disease Detection Repository! Here, we provide a comprehensive collection of deep learning models and datasets tailored for the accurate detection of Alzheimer's disease.
+**Authors:** Rimon Roy & Shohanto Chandra Das  
+**Thesis Project (BSc in CSE)**  
+**City University, Bangladesh**  
+**Thesis Supervisor:** Diponkor Bala, Lecturer, City University  
+**Year:** January 2024  
 
-## Highlights:
+---
 
-1. **Diverse Model Selection:** Explore a range of state-of-the-art deep learning architectures specifically designed for Alzheimer's disease detection, offering versatility and options for various computational requirements and performance considerations.
+## Overview
+**ADNET** is a deep learning–based Alzheimer’s disease detection system using **Convolutional Neural Networks (CNN)** with a **parallel ensemble strategy**.  
+The model classifies MRI brain images into multiple Alzheimer’s stages and integrates **Explainable AI (Grad-CAM)** for interpretability.
 
-2. **Rich Dataset Inclusion:** Access a curated dataset meticulously compiled for training and evaluation purposes, ensuring comprehensive coverage of Alzheimer's disease manifestations and diverse patient demographics.
+This research focuses on handling **imbalanced datasets**, enhancing data quality through **noise removal**, and outperforming leading transfer learning models.
 
-3. **Robust Implementation:** Benefit from meticulously crafted codebases for each model, providing clear documentation, efficient training procedures, and streamlined inference pipelines for seamless integration into research or clinical applications.
+---
 
-4. **Performance Evaluation:** Engage in thorough performance evaluation and comparison across different models, facilitated by standardized evaluation metrics and comprehensive analysis of model efficacy, robustness, and computational efficiency.
+##  Highlights
+- Custom **parallel CNN ensemble architecture**  
+- Trained on **ADNI MRI dataset (Kaggle)**  
+- Compared with **VGG19, ResNet50, InceptionV3, Xception, etc.**  
+- Achieved **98.75% accuracy**, **99.09% F1 score**, **99.97 AUC-ROC**  
+- Integrated **Grad-CAM** for decision visualization  
 
-5. **Community Collaboration:** Foster collaboration and knowledge exchange within the Alzheimer's disease detection research community through open-source contributions, issue discussions, and collaborative model development initiatives.
+---
 
-Join us in our mission to leverage deep learning for early and accurate detection of Alzheimer's disease, advancing research and clinical interventions for improved patient outcomes. Let's work together towards a future with more effective diagnostic tools and treatments for Alzheimer's disease.
+##  Included
+-  Model architecture and training scripts  
+-  Evaluation & visualization notebooks  
+-  Grad-CAM explainability module  
+-  Full thesis paper (PDF)  
 
-For detailed information on how to get started, refer to the documentation provided in each model's directory.
+---
+
+##  Citation
+**Roy, Rimon**, & **Das, Shohanto Chandra**.  
+*“ADNET: An Improved Alzheimer’s Disease Recognition System Using CNN with Parallel Ensemble Strategy and Explainable AI.”*  
+Bachelor Thesis, **City University, Bangladesh**, January 2024.
+
+---
+
+##  Contact
+**Author:** Rimon Roy  
+ **Email:** [rimonroy.ds@gmail.com](mailto:rimonroy.ds@gmail.com)  
+ **LinkedIn:** [linkedin.com/in/rimon-roy-2044](https://www.linkedin.com/in/rimon-roy-2044)  
+ **GitHub:** [github.com/rimonroy2044](https://github.com/rimonroy2044)
+
+---
+
+> 🧠 *“ADNET bridges AI and healthcare — empowering early Alzheimer’s detection through explainable deep learning.”*
